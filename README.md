@@ -22,7 +22,7 @@
 
 
 
-<img src="Teaser.png" alt="Teaser Image" style="width: 100%; max-width: 600px;">
+<img src="overview.png" alt="Teaser Image" style="width: 100%; max-width: 600px;">
 
 
 ## Abstract:
