@@ -53,8 +53,7 @@ This work is inspired and build and modified upon the work from [PS-MT](https://
 
 Pleass cite this research in your publication iof it helps your project
 
-```
-
+```bibtex
 @article{jha2025advancing,
   title={Advancing automatic photovoltaic defect detection using semi-supervised semantic segmentation of electroluminescence images},
   author={Jha, Abhishek and Rawat, Yogesh and Vyas, Shruti},
@@ -64,7 +63,5 @@ Pleass cite this research in your publication iof it helps your project
   year={2025},
   publisher={Elsevier}
 }
-
-
 ```
 
