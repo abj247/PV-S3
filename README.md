@@ -35,13 +35,13 @@ Photovoltaic (PV) systems allow us to tap into all abundant solar energy, howeve
 
 ### Acknowledgement
 
-This work is inspired and build and modified upon the work from [PS-MT]([https://github.com/MIT-REALM/macbf](https://github.com/yyliu01/PS-MT)) which is the implementation of [Perturbed and Strict Mean Teachers for Semi-supervised Semantic Segmentation]([https://arxiv.org/abs/2101.05436](https://arxiv.org/pdf/2111.12903)). The computational resources for this work are taken from the Center for Research in Computer Vision (CRCV), University of Central Florida.
+This work is inspired and build and modified upon the work from [PS-MT](https://github.com/yyliu01/PS-MT) which is the implementation of [Perturbed and Strict Mean Teachers for Semi-supervised Semantic Segmentation](https://arxiv.org/pdf/2111.12903). The computational resources for this work are taken from the Center for Research in Computer Vision (CRCV), University of Central Florida.
 
 
 ### Reference Links
 
 1. Liu, Yuyuan, et al. "Perturbed and strict mean teachers for semi-supervised semantic segmentation." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022..[pdf](https://arxiv.org/abs/2101.05436)
 2. Fioresi, Joseph, et al. "Automated defect detection and localization in photovoltaic cells using semantic segmentation of electroluminescence images." IEEE Journal of Photovoltaics 12.1 (2021): 53-61. [UCFSolar Dataset](https://github.com/ucf-photovoltaics/UCF-EL-Defect)
-3. Benchmark datasets for defect detection in EL images of solar cells using semantic segmentation [link](https://github.com/TheMakiran/BenchmarkELimages)
+3. Benchmark datasets for defect detection in EL images of solar cells using semantic segmentation [refered as CSB Dataset](https://github.com/TheMakiran/BenchmarkELimages)
 4. Pratt, Lawrence, Jana Mattheus, and Richard Klein. "A benchmark dataset for defect detection and classification in electroluminescence images of PV modules using semantic segmentation." Systems and Soft Computing 5 (2023): 200048.
 5. Pratt, Lawrence, Devashen Govender, and Richard Klein. "Defect detection and quantification in electroluminescence images of solar PV modules using U-net semantic segmentation." Renewable Energy 178 (2021): 1211-1222.
