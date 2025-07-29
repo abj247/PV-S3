@@ -1,0 +1,73 @@
+{
+    "name": "SSL_20",
+    "experim_name": "ssl_el",
+    "n_labeled_examples": 2614,
+    "ramp_up": 12,
+    "unsupervised_w": 1.5,
+    "ignore_index": 0,
+    "lr_scheduler": "Poly",
+    "use_weak_lables": false,
+    "weakly_loss_w": 0.4,
+    "model": {
+        "supervised": false,
+        "semi": true,
+        "resnet": 50,
+        "sup_loss": "CE",
+        "un_loss": "semi_ce",
+        "warm_up_epoch": 0
+    },
+    "optimizer": {
+        "type": "SGD",
+        "args": {
+            "lr": 1e-2,
+            "weight_decay": 1e-4,
+            "momentum": 0.9
+        }
+    },
+    "train_supervised": {
+        "data_dir": "dataset/EL/UCFSolar",
+        "batch_size": 16,
+        "crop_size": 224,
+        "shuffle": true,
+        "base_size": 299,
+        "scale": true,
+        "augment": true,
+        "flip": true,
+        "rotate": false,
+        "split": "train_supervised",
+        "num_workers": 8
+    },
+    "train_unsupervised": {
+        "data_dir": "dataset/EL/UCFSolar",
+        "weak_labels_output": "pseudo_labels/result/pseudo_labels",
+        "batch_size": 16,
+        "crop_size": 224,
+        "shuffle": true,
+        "base_size": 299,
+        "scale": true,
+        "augment": true,
+        "flip": true,
+        "rotate": false,
+        "split": "train_unsupervised",
+        "num_workers": 8
+    },
+    "val_loader": {
+        "data_dir": "dataset/EL/UCFSolar",
+        "batch_size": 1,
+        "val": true,
+        "split": "val",
+        "shuffle": false,
+        "num_workers": 4
+    },
+    "trainer": {
+        "epochs": 30,
+        "save_dir": "saved/",
+        "save_period": 10,
+        "log_dir": "saved/",
+        "log_per_iter": 20,
+        "val": true,
+        "val_per_epochs": 30,
+        "gamma": 0.5,
+        "sharp_temp": 0.5
+    }
+}
