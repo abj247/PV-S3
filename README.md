@@ -1,7 +1,7 @@
 # PV-S3
 <p align="center">
 
-  <h2 align="center">PV-S3: Advancing Automatic Photovoltaic Defect Detection using Semi-Supervised Semantic Segmentation of Electroluminescence Images</h2>
+  <h2 align="center"> Advancing Automatic Photovoltaic Defect Detection using Semi-Supervised Semantic Segmentation of Electroluminescence Images</h2>
   <p align="center">
     <a href="https://abj247.github.io/"><strong>Abhishek Jha</strong></a><sup>1</sup>
     ·
