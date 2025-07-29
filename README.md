@@ -31,9 +31,12 @@ Photovoltaic (PV) systems allow us to tap into all abundant solar energy, howeve
 
 
 
+## Weights
 
+- PV-S3 20% labelled weight: https://drive.google.com/file/d/1b_sIVyVivgDUFDIVlXSVhgQj5gpsh2X-/view?usp=sharing
+- Backbone weight for Resnet in Deeplabv3+: https://drive.google.com/file/d/11ro2qP4uPjHPVCefF1DUMBIru_bMhroA/view?usp=sharing
 
-### Acknowledgement
+##Acknowledgements
 
 This work is inspired and build and modified upon the work from [PS-MT](https://github.com/yyliu01/PS-MT) which is the implementation of [Perturbed and Strict Mean Teachers for Semi-supervised Semantic Segmentation](https://arxiv.org/pdf/2111.12903). The computational resources for this work are taken from the Center for Research in Computer Vision (CRCV), University of Central Florida.
 
@@ -45,3 +48,23 @@ This work is inspired and build and modified upon the work from [PS-MT](https://
 3. Benchmark datasets for defect detection in EL images of solar cells using semantic segmentation [refered as CSB Dataset](https://github.com/TheMakiran/BenchmarkELimages)
 4. Pratt, Lawrence, Jana Mattheus, and Richard Klein. "A benchmark dataset for defect detection and classification in electroluminescence images of PV modules using semantic segmentation." Systems and Soft Computing 5 (2023): 200048.
 5. Pratt, Lawrence, Devashen Govender, and Richard Klein. "Defect detection and quantification in electroluminescence images of solar PV modules using U-net semantic segmentation." Renewable Energy 178 (2021): 1211-1222.
+
+### Citation
+
+Pleass cite this research in your publication iof it helps your project
+
+```
+
+@article{jha2025advancing,
+  title={Advancing automatic photovoltaic defect detection using semi-supervised semantic segmentation of electroluminescence images},
+  author={Jha, Abhishek and Rawat, Yogesh and Vyas, Shruti},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={160},
+  pages={111790},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
+```
+
