@@ -51,7 +51,7 @@ This work is inspired and build and modified upon the work from [PS-MT](https://
 
 ### Citation
 
-Pleass cite this research in your publication iof it helps your project
+Pleass cite this research in your publication if it helps your project
 
 ```bibtex
 @article{jha2025advancing,
