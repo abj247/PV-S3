@@ -69,10 +69,10 @@ def main(gpu,  ngpus_per_node, config, args):
     config['train_unsupervised']['n_labeled_examples'] = config['n_labeled_examples']
     config['train_unsupervised']['use_weak_lables'] = config['use_weak_lables']
 
-    supervised_loader = VOC(config['train_supervised'], ddp_training=args.ddp, dgx=args.dgx)
-    unsupervised_loader = VOC(config['train_unsupervised'], ddp_training=args.ddp, dgx=args.dgx)
+    supervised_loader = EL(config['train_supervised'], ddp_training=args.ddp, dgx=args.dgx)
+    unsupervised_loader = EL(config['train_unsupervised'], ddp_training=args.ddp, dgx=args.dgx)
 
-    val_loader = VOC(config['val_loader'], dgx=args.dgx)
+    val_loader = EL(config['val_loader'], dgx=args.dgx)
 
     iter_per_epoch = len(unsupervised_loader)
 
