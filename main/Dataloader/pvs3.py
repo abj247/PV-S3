@@ -31,7 +31,7 @@ class ELDataset(BaseDataSet):
         self.num_classes = 5
         self.ddp_training = ddp_training
         self.dgx = dgx
-        self.palette = get_voc_pallete(self.num_classes)
+        self.palette = get_el_pallete(self.num_classes)
         super(ELDataset, self).__init__(**kwargs)
 
     def _set_files(self):
