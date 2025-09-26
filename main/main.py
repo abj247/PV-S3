@@ -49,7 +49,6 @@ def main(gpu,  ngpus_per_node, config, args):
             world_size=args.world_size
         )
 
-
     random.seed(42)
     torch.manual_seed(42)
     torch.cuda.manual_seed_all(42)
